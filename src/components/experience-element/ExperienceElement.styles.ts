@@ -4,14 +4,22 @@ export const ExperienceElementContainer = styled.div`
   display: flex;
   margin: 0 auto;
   margin-bottom: 3rem;
+  justify-content: center;
+  width: 80%;
 
   @media only screen and (max-width: 1080px) {
     flex-direction: column;
   }
+
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 `;
 
 export const ImageContainer = styled.div`
-  width: 500px;
+  flex: 1;
 
   > * {
     width: 100%;
@@ -26,10 +34,16 @@ export const ImageContainer = styled.div`
 
 export const JobDescriptionContainer = styled.div`
   display: flex;
+  flex: 1;
   flex-direction: column;
   margin-left: 3rem;
+
   @media only screen and (max-width: 1080px) {
     margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 80%;
   }
 `;
 
@@ -39,6 +53,10 @@ export const JobTitle = styled.span`
   font-weight: bold;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #dcdcdc;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 80px;
+  }
 
   @media only screen and (max-width: 480px) {
     font-size: 70px;
@@ -60,15 +78,17 @@ export const DatePeriod = styled.span`
 export const JobDescription = styled.span`
   font-size: 16px;
   color: #dcdcdc;
-  max-width: 500px;
   margin-bottom: 40px;
 `;
 
 export const TechStackContainer = styled.div`
   display: flex;
-  max-width: 500px;
   flex-wrap: wrap;
   margin-bottom: 2rem;
+
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 export const StackElementContainer = styled.div`
@@ -102,4 +122,9 @@ export const ProjectButton = styled.div`
   cursor: pointer;
 `;
 
-export const ActionsContainer = styled.div``;
+export const ActionsContainer = styled.div`
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
+`;
