@@ -44,12 +44,13 @@ export const SectionTitle = styled.span`
 
 export const ButtonsContainer = styled.div`
   display: flex;
-  width: 30%;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
 `;
 
 export const ContactButton = styled.div`
   cursor: pointer;
+  margin: 0 1rem;
 
   &:hover {
     animation: move 0.5s infinite alternate;
@@ -66,21 +67,21 @@ export const ContactButton = styled.div`
 `;
 
 export const GithubIcon = styled(Vectors.GithubIcon)`
-  width: 60px;
-  height: 60px;
+  width: 36px;
+  height: 36px;
 `;
 
 export const LinkedInIcon = styled(Vectors.LinkedInIcon)`
-  width: 60px;
-  height: 60px;
+  width: 36px;
+  height: 36px;
 `;
 
 export const MailIcon = styled(Vectors.MailIcon)`
-  width: 60px;
-  height: 60px;
+  width: 36px;
+  height: 36px;
 `;
 
 export const WspIcon = styled(Vectors.WspIcon)`
-  width: 60px;
-  height: 60px;
+  width: 36px;
+  height: 36px;
 `;

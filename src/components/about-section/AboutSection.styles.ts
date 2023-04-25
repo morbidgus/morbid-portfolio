@@ -47,12 +47,20 @@ export const AboutTextContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: 768px) {
+    width: 70%;
+  }
 `;
 
 export const AboutText = styled.span`
   color: white;
   font-size: 24px;
   text-align: center;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 16px;
+  }
 `;
 
 export const StackContainer = styled.div`
@@ -62,6 +70,10 @@ export const StackContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
+
+  @media only screen and (max-width: 768px) {
+    width: 70%;
+  }
 `;
 
 export const CodeStackIcon = styled(Vectors.CodeIcon)`

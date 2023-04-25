@@ -34,7 +34,7 @@ export const FirstNameContainer = styled.span`
   font-weight: bold;
 
   @media only screen and (max-width: 768px) {
-    font-size: 6em;
+    font-size: 68px;
   }
 `;
 
@@ -46,6 +46,6 @@ export const LastNameContainer = styled.span`
   -webkit-text-stroke-color: #dcdcdc;
 
   @media only screen and (max-width: 768px) {
-    font-size: 6em;
+    font-size: 68px;
   }
 `;

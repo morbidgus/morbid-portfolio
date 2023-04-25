@@ -39,6 +39,10 @@ export const JobTitle = styled.span`
   font-weight: bold;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #dcdcdc;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 70px;
+  }
 `;
 
 export const JobPosition = styled.span`
