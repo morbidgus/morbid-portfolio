@@ -3,7 +3,7 @@ import AboutSection from "../components/about-section/AboutSection.component";
 import ContactSection from "../components/contact-section/ContactSection.component";
 import ExperienceSection from "../components/experience-section/ExperienceSection.component";
 import PageHero from "../components/page-header/PageHero.component";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/english-resume.pdf";
 
 import * as STYLE from "./Main.styles";
 
